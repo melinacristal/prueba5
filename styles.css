@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cambia aquí el tipo de letra */
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+p {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.images-container {
+    flex: 1 0 30%;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.image {
+    flex: 0 0 30%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.image img {
+
+    width: 200%; /* Ajusta el ancho al 100% */
+    height: auto; /* Esto mantiene la proporción de aspecto */
+    display: block;
+    max-width: 150%; /* Asegura que la imagen no se salga del contenedor */
+    max-height: 500px; /* Establece una altura máxima para la imagen */
+}
